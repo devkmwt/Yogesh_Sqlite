@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yogesh.sqlite.MainActivity">
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Contact"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add contact"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/btnSearch"
+        android:layout_alignStart="@+id/btnSearch"
+        android:layout_alignEnd="@+id/btnSearch" />
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete contact"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_marginTop="15dp"
+        android:layout_alignEnd="@+id/btnAdd" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update contact"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/btndelete"
+        android:layout_alignEnd="@+id/btndelete"
+        android:layout_alignStart="@+id/btndelete" />
+
+</RelativeLayout>
